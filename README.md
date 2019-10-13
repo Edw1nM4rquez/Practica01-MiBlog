@@ -39,3 +39,8 @@ Mi Primer Blog en  HTML5
 	(usar hipervínculo, tel), además deberá tener el símbolo de copyright junto a la
 	leyenda de “Todos los derechos reservados”. Por ejemplo, © Todos los derechos
 	reservados.
+	<footer>
+	Edwin Fernando Marquez Lozado &nbsp; Universidad Politecnica Salesiana &#128274; <a href="mail:emarquezl@est.ups.edu.ec">emarquezl@est.ups.edu.ec</a> 
+	&nbsp; <a href="tel: +0983364721">(593) 0983364721</a>  &#128274; <br>&nbsp;
+	&#169 Todos los derechos reservados
+	</footer>
