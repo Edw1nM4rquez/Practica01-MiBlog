@@ -30,7 +30,12 @@ Mi Primer Blog en  HTML5
 		<ul>
     		<li><a href="pr_inicio_txt.html">Inicio</a></li>
 		<li><a href="pr_menu_txt.html">Menu</a></li>
-		<li><a href="pr_eventos_txt.html">Events</a></li>
-		<li><a href="pr_categoria_txt.html">Catering</a></li>
+		<li><a href="pr_eventos_txt.html">Eventos</a></li>
+		<li><a href="pr_categoria_txt.html">Categoria</a></li>
 		</ul>
 		</nav>
+4.Creamos nuestro pie de pagina con las siguientes caracteristicas : 
+	Nombres completos, organización, correo (usar hipervínculo, mailto), teléfono
+	(usar hipervínculo, tel), además deberá tener el símbolo de copyright junto a la
+	leyenda de “Todos los derechos reservados”. Por ejemplo, © Todos los derechos
+	reservados.
