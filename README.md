@@ -122,15 +122,21 @@ siguiente pagina el documento index.html W3C Validator.
 	</footer>
 	</body>
 	</html>
+8.1 Tomemos encuenta que estamso implementando rutas alternativas para llegar hacia los otros documentos.
+	
+	<link href="../../css/pr_base.css" rel="stylesheet" /> 
+	<link href="../../css/pr_layout.css" rel="stylesheet" />
 
-9.Ahora en el cuerpo del documento vamos a poner un Titulo secundario <h2> y utilizaremos la etiqueta <aside>.
+
+9.Ahora en el cuerpo del documento vamos a poner un Titulo secundario </h2> y utilizaremos la etiqueta <aside>.
 
 <h2>Herramientas para aumentar la seguridad</h2>
 <aside>Te recordamos algunas medidas b&aacute;sicas de protecci&oacute;n para navegar por la red de redes,
 mitigar el riesgo y proteger datos personales hacia posibles vulnerabilidades:</aside>
 
 10.Ahora vamos a crear una lista ordenada para utilizar las etiquetas ids 
-    <nav>
+   	
+	 <nav>
 	<ul>
     	<li><a href="../../pr_index.html">Inicio</a></li>
 		<li><a href="pr_menu.html">Herramientas</a></li>
@@ -143,7 +149,7 @@ mitigar el riesgo y proteger datos personales hacia posibles vulnerabilidades:</
  
 	<section >
 	<article>
-	<header id="concept4"><h2><li>Protege los navegadores</li></h2></header>
+	<header id="concept4"><h2>4.-Protege los navegadores</h2></header>
 	<img src="../../imgs/pr_photo6.png" alt=" " />
 	Todos los navegadores web incluyen caracter&iacute;sticas avanzadas de 
 	seguridad cuya activaci&oacute;n debemos revisar y configurar porque son 
@@ -158,3 +164,37 @@ mitigar el riesgo y proteger datos personales hacia posibles vulnerabilidades:</
 	o historial.
 	</article>
 	</section>
+
+12.Nos dirigimos hacia el documento pr_eventos.html copiamos el encabezado y pie de pagina de los documentos enteriores.
+ 
+	<!Doctype html>
+	<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+	<meta charset="utf-8" />
+	<meta name="keywords" content="Ciberseguridad, Black, Hat, Defcon, Seguridad ,Informatica" /> 
+	<title>Seguridad Informatica</title>
+	<link href="../../css/pr_base.css" rel="stylesheet" /> 
+	<link href="../../css/pr_layout.css" rel="stylesheet" />
+	</head>
+	<body>
+	<header>
+	<a href="../../pr_index.html"><img src="../../imgs/pr_logo.png" alt="Ciberseguridad" /></a>
+  	<nav>
+	<ul>
+    	<li><a href="../../pr_index.html">Inicio</a></li>
+		<li><a href="../categoria/pr_herramienta.html">Herramientas</a></li>
+		<li><a href="pr_eventos.html">Eventos</a></li>
+		<li><a href="../categoria/pr_categoria.html">Categoria</a></li>
+	</ul>
+	</nav>
+	</header>
+	<article>
+
+	</article>
+	<footer>
+	Edwin Fernando Marquez Lozado &nbsp; Universidad Politecnica Salesiana &#128274; <a href="mail:emarquezl@est.ups.edu.ec">emarquezl@est.ups.edu.ec</a> 
+	&nbsp; <a href="tel:+0983364721">(593) 0983364721</a>  &#128274; <br> &nbsp;
+	&#169; Todos los derechos reservados
+	</footer>
+	</body>
+	</html>
