@@ -1,7 +1,7 @@
 # Practica01-MiBlog
 Mi Primer Blog en  HTML5
 
-1.Primero creamos los archivos .html . En este caso pr_inicio, pr_menu, pr_eventos, pr_categoria.
+1.Primero creamos los archivos .html . En este caso pr_index.html, pr_menu.html, pr_eventos.html, pr_categoria.hmtl.
 
 2.Abrimos nuestro archivo pr_inicio.html en nuestro editor HTML.Creamos el encabezado :
 
@@ -21,19 +21,20 @@ Mi Primer Blog en  HTML5
 3. Vamos al cuerpo del documento e insertamos un elemento de encabezado que contenga lo siguiente:
 
 	a. Insertamos laimagen con el logo referente al tema que escogimos mp_logo.png con el texto alternativo CIBERSEGURIDAD. marcamos la imagen con un enlace de hipertexto que apunta al archivo pr_inicio.html.
-		<a href="pr_inicio.html"><img src="imgs/pr_logo.png" alt="Ciberseguridad" /></a>
+		
+		<a href="pr_index.html"><img src="imgs/pr_logo.png" alt="Ciberseguridad" /></a>
 
 	b. Creamos una lista de navegación que contiene una lista desordenada con los siguientes elementos de la lista: Inicio, Menú,
 	Eventos y Categoria.Enlazamos los elementos .html respectivamente.
-
-		<nav>
+    		<nav>
 		<ul>
     		<li><a href="pr_index.html">Inicio</a></li>
-		<li><a href="pr_menu.html">Menu</a></li>
-		<li><a href="pr_eventos.html">Eventos</a></li>
-		<li><a href="pr_categoria.html">Categoria</a></li>
+		<li><a href="docs/categoria/pr_menu.html">Menu</a></li>
+		<li><a href="docs/general/pr_eventos.html">Events</a></li>
+		<li><a href="docs/categoria/pr_categoria.html">Catering</a></li>
 		</ul>
 		</nav>
+
 4.Creamos nuestro pie de pagina con las siguientes caracteristicas : 
 	Nombres completos, organización, correo (usar hipervínculo, mailto), teléfono
 	(usar hipervínculo, tel), además deberá tener el símbolo de copyright junto a la
