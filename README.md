@@ -211,3 +211,91 @@ mitigar el riesgo y proteger datos personales hacia posibles vulnerabilidades:</
  	Internet est&aacute;n en el punto de mira.</p>
  	</aside>
 	
+15.Para la creacion de nuestra tabla avanzada que se solicita tenemos ingresar las siguiientes etiquetas.
+
+		<table border="1" style=”width: 100%”>
+			<caption><em>Fecha de las conferencias</em></caption>
+			<colgroup>
+				<col style="width: 20%"/>
+				<col style="width: 40%"/>
+				<col style="width: 40%"/>
+			</colgroup>
+			<thead>
+				<tr>
+					<th rowspan="2">No.</th>
+					<th colspan="2">DEFCON Y BLACK HAT</th>
+				</tr>
+				<tr>
+					<th>Nombre</th>
+					<th>Fechas</th>
+				</tr>
+			</thead>
+			<tfoot>
+				<tr>
+					<td colspan="3"><marquee>Su registro esta disponible hasta el 2 de Agosto</marquee></td>
+				</tr>
+			</tfoot>
+			<tbody>
+				<tr>
+					<th>1.</th>
+					<td>DEFCON</td>
+					<td>Agosto 8</td>
+				</tr>
+				<tr>
+					<th>2.</th>
+					<td>BLACK HAT</td>
+					<td>Agosto 3 - Agosto 8</td>
+				</tr>
+			</tbody>
+		</table>
+
+16.Lo que tenemos que hacer ahora es irnos a nuestro navegador para observar si la pagina no tiene algun problema y como tal ser validada en W3C Validator.
+
+17.Vamos a llegar el documento pr_categoria.html, de la misma manera copiamos los encabezado y pies de paginas de los documentos anteriores.
+19.Insertamos el texto o imagenes necesarios en este caso ingresaremos el siguiente texto.
+	<h1>Fases de la Ciberseguridad</h1>
+	<aside>
+	<p>Protegerse ante los peligros de la era actual implica llevar a 
+	cabo procesos de ciberseguridad que se sustenten sobre su efectividad 
+	y para hacerlo, hay que conocer las fases en las que aplicarlos. Podemos 
+	dividir el proceso en tres fases concretas que suelen ser temario habitual d
+	el m&aacute;ster en seguridad empresarial: prevenci&oacute;n, localizaci&oacute;n y reacci&oacute;n.</p>
+	</aside>
+
+20.Acontinuacion vamos a crear uns lista de definiciones sobre tres faces de la Ciberseguridad.
+	<dl>
+	<dt>Prevenci&oacute;n</dt>
+	<dd>Hay que actuar de forma temprana e informarnos de todo lo que 
+	puede ocurrirle a nuestro sistema</dd>
+
+	<dt>Localizaci&oacute;n</dt>
+	<dd>Despues de prevenir, en el caso de haber sufrido alg&uacute;n 
+	tipo de problema, habr&aacute; que localizar d&oacute;nde radica el problema. </dd>
+
+	<dt>Reacci&oacute;n</dt>
+	<dd>Una vez que hemos localizado la amenaza, tendremos 
+	que dar una respuesta t&eacute;cnica sobre la misma.</dd>
+	<a href="../bibliografia/pr_datos.html"><h2><em>Dr. Chema Alonso </em></h2></a>
+	</dl>
+21.Con la etiqueta <iframe> que nos ayuda a insertar videos de Youtube en nuestro sitio web.
+	a.Primero nos dirigimos hacia el video de youtube que queremos utilizar, hacemos 
+	  click en compartir, luego nos vamos a insertar y copiamos el texto por defecto y lo pegamos en nuestra 
+	  pagina web.
+
+		<iframe width="524" height="315" 
+		src="https://www.youtube.com/embed/Nan74Gxl_SY" frameborder="0" 
+		allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+		allowfullscreen></iframe>
+
+22.Para finalizar e creado un nuevo documento pr_datos.html en donde vamos a tener una bibliografia, vamos a enlazarlo con la siguiente linia de etiquetas.
+	
+		<a href="../bibliografia/pr_datos.html"><h2><em>Dr. Chema Alonso </em></h2></a>
+
+23.Creamos nuestro nuevo documento y lo abrimos  en nuestro editor de html.Copiamos el pie depagina y encabezado de los anteriores documentos 
+    ahora lo unico que vamos a hacer es con las etiquetas anteriores ingresamos el texto y una imagen, que son las cosas vacicas que ya emos visto 
+    en la creacion de los documentos anteriores.
+	
+	<a href="../bibliografia/pr_datos.html">Bibliografia</a>
+
+24.De la misma manera validamos la pagina web en W3C Validator y si no tenemos errores o de tal manera arreglamos los mismo y hemos terminado esta practica de crear nuestro 
+sitio web .
